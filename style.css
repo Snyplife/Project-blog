@@ -1,0 +1,173 @@
+/* BACKGROUND */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(26deg, #ffc575, #ff6430);
+background-size: 600% 600%;
+
+animation: AnimationName 11s ease infinite;
+
+
+}
+
+@keyframes AnimationName {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+
+/* TITLE */
+
+h1 {
+  text-align: center;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+.lol {
+  border-bottom: 1px solid black;
+  width: 60em;
+  height: 3px;
+  margin: auto;
+}
+
+/* END TITLE */
+
+/* HEADER */
+
+header {
+display: flex;
+justify-content: center;
+  padding: 10px 0px;
+}
+
+
+.logo {
+  border-radius: 60%;
+  width: 30%;
+  height: 30%;
+}
+
+/* END HEADER */
+
+/* MENU */
+
+.Menu  {
+  display: flex;
+  justify-content: center;
+
+}
+
+.Menu li {
+  padding: 5px;
+  width: 80px;
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+/* END MENU */
+
+/* PREMIER BLOC & SLIDER */
+
+@keyframes slidy {
+0% { left: 0%; }
+10% { left: -40%; }
+20% { left: -50%; }
+25% { left: -60%; }
+30% { left: -65%; }
+35% { left: -70%; }
+40% { left: -70%; }
+45% { right: 60%; }
+70% { right: 50%; }
+80% { right: 20%; }
+
+90% { left: 0%; }
+
+}
+
+
+.slider {
+
+  overflow: hidden;
+  margin: 0;
+  padding-top: 15px;
+  padding-right: 100px;
+  padding-bottom: 15px;
+
+}
+.slider figure img { width: 10%; float: left; }
+.slider figure {
+  position: relative;
+  width: 300%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 5s slidy infinite;
+}
+
+/* END FIRST BLOC + SLIDER */
+
+/* BANDEAU */
+.bandeau {
+  background-image: url(images/ppp7copie.jpg);
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background-position: 166px -270px;
+}
+.bandeau img {
+  padding-top: 200px;
+
+}
+ /* END BANDEAU */
+
+ /* SECOND BLOC */
+#print-2 {
+  display: flex;
+
+  margin: 0;
+  padding-top: 30px;
+  padding-right: 62.3px;
+  width: 55%;
+  height: 50%
+}
+
+/* END SECOND BLOC */
+
+/* START THIRD BLOC  */
+
+#print-3 {
+  display: flex;
+
+  margin: 0;
+  padding-top: 30px;
+  padding-right: 62.3px;
+  width: 55%;
+  height: 50%
+}
+
+/* FOOTER + ICONS */
+
+footer, h1 {
+
+  text-align: center;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.twitter-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.twitter-logo:hover {
+  transition: transform ease 0.6s;
+  transform: rotate(360deg);
+}
+
+/* END FOOTER + ICONS */
